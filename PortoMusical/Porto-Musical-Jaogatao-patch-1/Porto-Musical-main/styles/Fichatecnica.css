@@ -1,0 +1,46 @@
+#fichatecnica{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
+
+#fichatecnica h1{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 96px;
+
+}
+
+#fichatecnica ul{
+    color: var(--purple);
+    margin-bottom: 20px;
+   
+}
+
+#fichatecnica ul li{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+#ficha-tecnica-title{
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+    #fichatecnica h1{
+        margin-left: 0px;
+    }
+    #fichatecnica ul{
+        margin-left: 0px;
+    }
+    #ficha-tecnica-title{
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}

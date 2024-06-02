@@ -1,0 +1,165 @@
+
+#programacao h1{
+    
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+
+.dez-horas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 10;
+}
+
+.primeiro-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 5px 10px 5px;
+}
+
+.quatoze-horas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 10;
+}
+
+.dez-horas h1{
+    color: var(--purple);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 46px;
+    margin-left: 85px;
+}
+
+.dez-horas p{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+
+.text-hours{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.dez-horas ul li{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.text-think{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.dez-horas .primeiro{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dez-horas .first-programation, .second-programation{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .dez-horas .primeiro{
+        flex-direction: column;
+    }
+    .dez-horas .first-programation, .second-programation{
+        margin-left: 0px;
+    }
+    .dez-horas p{
+        margin-left: 0px;
+    }
+    .dez-horas h1{
+        margin-left: 0px;
+    }
+    #programacao h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    #ficha-tecnica{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+    }
+}
+
+.quatoze-horas p{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+
+.quatoze-horas ul{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+.quatoze-horas ul li{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .quatoze-horas ul{
+        margin-left: 0px;
+    }
+    .quatoze-horas p{
+        margin-left: 0px;
+    }
+}
+
+.dezeseis-horas p{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+
+.dezeseis-horas ul{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+}
+
+.dezeseis-horas ul li{
+    color: var(--purple);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .dezeseis-horas ul{
+        margin-left: 0px;
+    }
+    .dezeseis-horas p{
+        margin-left: 0px;
+    }
+}

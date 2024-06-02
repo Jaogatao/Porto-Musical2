@@ -1,0 +1,96 @@
+@import url(header.css);
+@import url(Porto.css);
+@import url(Subscribe.css);
+@import url(Programacao.css);
+@import url(showcases.css);
+@import url(Endereços.css);
+@import url(Fichatecnica.css);
+@import url(Marcas.css);
+@import url(Footer.css);
+
+@font-face {
+    font-family: 'Monaco';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Monaco'), url('/Fonts/Monaco.woff') format('woff');
+    }
+    
+
+ *{
+        
+        margin: 0;
+        padding: 0;
+        font-family: 'Monaco';
+        font-weight: normal;
+        text-decoration: none;
+        text-transform: uppercase;
+        list-style: none;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+        color: var(--black);
+      }
+ 
+:root{
+
+    --primary : #b6ffcb;
+    --primary200: #005500;
+    --light : #FFFFFF;
+    --darkBlue : #18191F;
+    --black : #000000;
+    --purple: #884bff;
+
+  }
+
+  body{
+    background-color: var(--primary);
+  }
+
+.container{
+  padding: 0 4rem;
+  @media(max-width: 768px){
+    padding: 0 2rem;
+  }
+}
+ 
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  @media(max-width: 768px){
+   grid-template-columns: 1fr;
+  }
+}
+.grid-container .grid-item p,
+.grid-container .grid-item h3
+{
+  color: var(--purple ) !important;
+}
+
+
+.color-purple{
+  color: var(--purple);
+  
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.divider{
+  margin: 25px 0;
+}
+
+.text-hours{
+  color: var(--purple);
+  font-weight: 400;
+  font-size: 28px;
+}
+
+@media(max-width: 768px){
+  .text-hours{
+    font-size: 25px;
+  }
+  *{
+    overflow-x: hidden;
+  }
+}
